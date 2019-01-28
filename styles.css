@@ -1,0 +1,100 @@
+body{
+  background-color: #3c3c3b;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  width: 900px;
+  margin:auto;
+}
+
+h1{
+  font-size: 3.5rem;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: #e62a29;
+  line-height: 1rem;
+}
+
+h2{
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1 span {
+  color: #e62a29;
+}
+
+h2 span{
+  color: #e62a29;
+}
+
+li span{
+  color: #e62a29;
+  font-weight: bold;
+}
+
+#list-nostyle{
+  list-style-type: none;
+  list-style: none;
+  line-height: 1.6rem;
+}
+
+ul#infos li {
+  position: relative;
+  margin-left: 1em;
+  line-height: 2rem;
+  list-style-type: none;
+  font-size: 1.4rem;
+
+}
+
+ul#infos li:before {
+  position: absolute;
+  left: -1em;
+  content: "#";
+  color: #e62a29;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  grid-template-areas: "Hobby-title Skill-title" "hobbys skills";
+}
+
+.Hobby-title { grid-area: Hobby-title; }
+
+.Skill-title { grid-area: Skill-title; }
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "skill-1 skill-2 skill-3 skill-4 skill-5" "skill-6 skill-7 skill-8 skill-9 skill-10";
+  grid-area: skills;
+}
+
+.skill-1 { grid-area: skill-1; }
+
+.skill-2 { grid-area: skill-2; }
+
+.skill-3 { grid-area: skill-3; }
+
+.skill-4 { grid-area: skill-4; }
+
+.skill-5 { grid-area: skill-5; }
+
+.skill-6 { grid-area: skill-6; }
+
+.skill-7 { grid-area: skill-7; }
+
+.skill-8 { grid-area: skill-8; }
+
+.skill-9 { grid-area: skill-9; }
+
+.skill-10 { grid-area: skill-10; }
+
+.hobbys { grid-area: hobbys; }
