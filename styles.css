@@ -35,6 +35,12 @@ li span{
   font-weight: bold;
 }
 
+.imgprofil{
+  float: right;
+  width: 200px;
+  transform: rotate(15deg);
+}
+
 #list-nostyle{
   list-style-type: none;
   list-style: none;
@@ -63,6 +69,16 @@ ul#infos li:before {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.4fr 1.6fr;
   grid-template-areas: "Hobby-title Skill-title" "hobbys skills";
+}
+
+.skillimg{
+  padding: 5px;
+  padding-bottom: 10px;
+  width: 75px;
+}
+
+.hobbyimg{
+  width: 20px;
 }
 
 .Hobby-title { grid-area: Hobby-title; }
